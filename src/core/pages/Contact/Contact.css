@@ -1,0 +1,56 @@
+.contact {
+    width: 792px;
+    height: 1123px;
+}
+
+.header {
+    width: 100%;
+    height: 15vh;
+}
+
+.ImageContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titleContent {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.imageContent {
+    width: 100% !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imageContent img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+     width: 45vw !important;
+     height: 20vh !important;
+     padding: 1vh;
+}
+
+.functionName {
+    font-size: 3vh;
+}
+
+.date {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 5vh;
+    font-weight: bold;
+}
+
+.date p{
+    font-weight: 600;
+}
